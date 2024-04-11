@@ -17,7 +17,7 @@ services:
     volumes:
       #Swap the folder path for plugin vs theme development
       - wordpress:/var/www/html
-      - ../:/var/www/html/wp-content/plugins/plugin-dev
+      #- ../:/var/www/html/wp-content/plugins/plugin-dev
       #- ../:/var/www/html/wp-content/themes/theme-dev
  
   db:
